@@ -4,12 +4,227 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto</title>
+    <title>Proyecto "clon de spotify"</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
 </head>
-
-
 <body>
+
+    <main>
+        <!--Barra de arriba-->
+        <div class="topbar">
+            <div class="container-arrows">
+                <div class="container-arrow-left">
+                    <span class="material-symbols-outlined">
+                        chevron_left
+                        </span>
+                </div>
+                <div class="container-arrow-right">
+                    <span class="material-symbols-outlined">
+                        chevron_right
+                        </span>
+                </div>
+            </div>
+            <div class="buttons-user">
+                <a href="#">Registrarte</a>
+                <a href="#">Iniciar sesión</a>
+            </div>
+        </div>
+
+        <!--Barra de navegacion a la izquierda-->
+        <nav class="navbar">
+            <div class="container-navbar">
+                <a href="#">
+                    <svg viewBox="0 0 1134 340" class="fwTMCeAaUoWDj9WcQbgy"><title>Spotify</title><path fill="currentColor" d="M8 171c0 92 76 168 168 168s168-76 168-168S268 4 176 4 8 79 8 171zm230 78c-39-24-89-30-147-17-14 2-16-18-4-20 64-15 118-8 162 19 11 7 0 24-11 18zm17-45c-45-28-114-36-167-20-17 5-23-21-7-25 61-18 136-9 188 23 14 9 0 31-14 22zM80 133c-17 6-28-23-9-30 59-18 159-15 221 22 17 9 1 37-17 27-54-32-144-35-195-19zm379 91c-17 0-33-6-47-20-1 0-1 1-1 1l-16 19c-1 1-1 2 0 3 18 16 40 24 64 24 34 0 55-19 55-47 0-24-15-37-50-46-29-7-34-12-34-22s10-16 23-16 25 5 39 15c0 0 1 1 2 1s1-1 1-1l14-20c1-1 1-1 0-2-16-13-35-20-56-20-31 0-53 19-53 46 0 29 20 38 52 46 28 6 32 12 32 22 0 11-10 17-25 17zm95-77v-13c0-1-1-2-2-2h-26c-1 0-2 1-2 2v147c0 1 1 2 2 2h26c1 0 2-1 2-2v-46c10 11 21 16 36 16 27 0 54-21 54-61s-27-60-54-60c-15 0-26 5-36 17zm30 78c-18 0-31-15-31-35s13-34 31-34 30 14 30 34-12 35-30 35zm68-34c0 34 27 60 62 60s62-27 62-61-26-60-61-60-63 27-63 61zm30-1c0-20 13-34 32-34s33 15 33 35-13 34-32 34-33-15-33-35zm140-58v-29c0-1 0-2-1-2h-26c-1 0-2 1-2 2v29h-13c-1 0-2 1-2 2v22c0 1 1 2 2 2h13v58c0 23 11 35 34 35 9 0 18-2 25-6 1 0 1-1 1-2v-21c0-1 0-2-1-2h-2c-5 3-11 4-16 4-8 0-12-4-12-12v-54h30c1 0 2-1 2-2v-22c0-1-1-2-2-2h-30zm129-3c0-11 4-15 13-15 5 0 10 0 15 2h1s1-1 1-2V93c0-1 0-2-1-2-5-2-12-3-22-3-24 0-36 14-36 39v5h-13c-1 0-2 1-2 2v22c0 1 1 2 2 2h13v89c0 1 1 2 2 2h26c1 0 1-1 1-2v-89h25l37 89c-4 9-8 11-14 11-5 0-10-1-15-4h-1l-1 1-9 19c0 1 0 3 1 3 9 5 17 7 27 7 19 0 30-9 39-33l45-116v-2c0-1-1-1-2-1h-27c-1 0-1 1-1 2l-28 78-30-78c0-1-1-2-2-2h-44v-3zm-83 3c-1 0-2 1-2 2v113c0 1 1 2 2 2h26c1 0 1-1 1-2V134c0-1 0-2-1-2h-26zm-6-33c0 10 9 19 19 19s18-9 18-19-8-18-18-18-19 8-19 18zm245 69c10 0 19-8 19-18s-9-18-19-18-18 8-18 18 8 18 18 18zm0-34c9 0 17 7 17 16s-8 16-17 16-16-7-16-16 7-16 16-16zm4 18c3-1 5-3 5-6 0-4-4-6-8-6h-8v19h4v-6h4l4 6h5zm-3-9c2 0 4 1 4 3s-2 3-4 3h-4v-6h4z"></path></svg>
+                </a>
+
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                home
+                                </span>
+                            Inicio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                search
+                                </span>
+                            Buscar
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                bookmark
+                                </span>
+                            Tu biblioteca
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="extra-options">
+                    <button>
+                        <span class="material-symbols-outlined">
+                            add_box
+                            </span>
+                        Crear lista
+                    </button>
+                    <button>
+                        <span class="material-symbols-outlined">
+                            favorite
+                            </span>
+                        Canciones que te gustan
+                    </button>
+                </div>
+
+                <div class="container-links">
+                    <div>
+                        <ul>
+                            <li>
+                                <a href="https://www.spotify.com/mx/legal/">
+                                    Legal
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.spotify.com/mx/privacy/">
+                                    Centro de privacidad
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.spotify.com/mx/legal/privacy-policy/">
+                                    Política de privacidad
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.spotify.com/mx/legal/cookies-policy/">
+                                    Cookies
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.spotify.com/mx/legal/privacy-policy/#s3">
+                                    Información sobre los anuncios
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <button>
+                    <span class="material-symbols-outlined">
+                        language
+                        </span>
+                    Español de España
+                </button>
+            </div>
+        </nav>
+
+
+        <!--Contenido principal-->
+        <section>
+            <!--Primerfila-->
+            <div>
+                <h1>Enfoque</h1>
+                <div>
+                    <div>
+                        <div>
+                            <div>
+                                <img src="" alt="Peaceful Piano">
+                            </div>
+                            <h2>Peaceful Piano</h2>
+                            <p>Relax and indulge with beautiful piano pieces</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <div>
+                                <img src="" alt="Deep Focus">
+                                <h2>Deep Focus</h2>
+                                <p>texto2</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Segundafila-->
+            <div>
+                <h1>Playlist de Spotify</h1>
+                <div>
+                    <div>
+                        <div>
+                            <div>
+                                <img src="" alt="Today's Top Hits">
+                            </div>
+                            <h2>Today's Top Hits</h2>
+                            <p>texto</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <div>
+                                <img src="" alt="RapCaviar">
+                                <h2>RapCaviar</h2>
+                                <p>texto2</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--Footer-->
+        <footer class="footer">
+            <div class="container-links-footer">
+                <div>
+                    <h3>Empresa</h3>
+                    <a href="#">Acerca de</a>
+                    <a href="#">Empleo</a>
+                    <a href="#">For the record</a>
+                </div>
+                <div>
+                    <h3>Comunidades</h3>
+                    <a href="#">Para artistas</a>
+                    <a href="#">Desarrolladores</a>
+                    <a href="#">Publicidad</a>
+                    <a href="#">Inversores</a>
+                    <a href="#">Proveedores</a>
+                </div>
+                <div>
+                    <h3>Enlaces útiles</h3>
+                    <a href="#">Asistencia</a>
+                    <a href="#">App gratis para movil</a>
+                </div>
+
+                <div class="social-icons">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="32" height="32"viewBox="0 0 32 32"><path d="M 11.46875 5 C 7.917969 5 5 7.914063 5 11.46875 L 5 20.53125 C 5 24.082031 7.914063 27 11.46875 27 L 20.53125 27 C 24.082031 27 27 24.085938 27 20.53125 L 27 11.46875 C 27 7.917969 24.085938 5 20.53125 5 Z M 11.46875 7 L 20.53125 7 C 23.003906 7 25 8.996094 25 11.46875 L 25 20.53125 C 25 23.003906 23.003906 25 20.53125 25 L 11.46875 25 C 8.996094 25 7 23.003906 7 20.53125 L 7 11.46875 C 7 8.996094 8.996094 7 11.46875 7 Z M 21.90625 9.1875 C 21.402344 9.1875 21 9.589844 21 10.09375 C 21 10.597656 21.402344 11 21.90625 11 C 22.410156 11 22.8125 10.597656 22.8125 10.09375 C 22.8125 9.589844 22.410156 9.1875 21.90625 9.1875 Z M 16 10 C 12.699219 10 10 12.699219 10 16 C 10 19.300781 12.699219 22 16 22 C 19.300781 22 22 19.300781 22 16 C 22 12.699219 19.300781 10 16 10 Z M 16 12 C 18.222656 12 20 13.777344 20 16 C 20 18.222656 18.222656 20 16 20 C 13.777344 20 12 18.222656 12 16 C 12 13.777344 13.777344 12 16 12 Z"></path></svg>
+                    </div>
+                        
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="32" height="32"viewBox="0 0 32 32"><path d="M 28 8.558594 C 27.117188 8.949219 26.167969 9.214844 25.171875 9.332031 C 26.1875 8.722656 26.96875 7.757813 27.335938 6.609375 C 26.386719 7.171875 25.332031 7.582031 24.210938 7.804688 C 23.3125 6.847656 22.03125 6.246094 20.617188 6.246094 C 17.898438 6.246094 15.691406 8.453125 15.691406 11.171875 C 15.691406 11.558594 15.734375 11.933594 15.820313 12.292969 C 11.726563 12.089844 8.097656 10.128906 5.671875 7.148438 C 5.246094 7.875 5.003906 8.722656 5.003906 9.625 C 5.003906 11.332031 5.871094 12.839844 7.195313 13.722656 C 6.386719 13.695313 5.628906 13.476563 4.964844 13.105469 C 4.964844 13.128906 4.964844 13.148438 4.964844 13.167969 C 4.964844 15.554688 6.660156 17.546875 8.914063 17.996094 C 8.5 18.109375 8.066406 18.171875 7.617188 18.171875 C 7.300781 18.171875 6.988281 18.140625 6.691406 18.082031 C 7.316406 20.039063 9.136719 21.460938 11.289063 21.503906 C 9.605469 22.824219 7.480469 23.609375 5.175781 23.609375 C 4.777344 23.609375 4.386719 23.585938 4 23.539063 C 6.179688 24.9375 8.765625 25.753906 11.546875 25.753906 C 20.605469 25.753906 25.558594 18.25 25.558594 11.742188 C 25.558594 11.53125 25.550781 11.316406 25.542969 11.105469 C 26.503906 10.410156 27.339844 9.542969 28 8.558594 Z"></path></svg>
+                    </div>
+
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="32" height="32"viewBox="0 0 32 32"><path d="M13,0C5.82,0,0,5.82,0,13c0,6.518,4.801,11.899,11.057,12.839v-9.394H7.84v-3.417h3.217v-2.274 c0-3.765,1.834-5.417,4.963-5.417c1.498,0,2.291,0.111,2.666,0.162v2.983h-2.134c-1.328,0-1.792,1.259-1.792,2.679v1.868h3.893 l-0.528,3.417H14.76v9.422C21.105,25.006,26,19.581,26,13C26,5.82,20.18,0,13,0z"></path></svg>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+
+
+
 
     
 </body>
