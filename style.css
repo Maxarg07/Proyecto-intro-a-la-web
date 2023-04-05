@@ -108,7 +108,7 @@ body{
 
     position: fixed;
     width: 30rem;
-    
+    height: calc(100vh - 8rem);
 }
 
 .logo-svg{
@@ -258,7 +258,7 @@ body{
     bottom: 0;
     z-index: 20;
     width: 100%;
-    height: 7rem;
+    height: 8rem;
 }
 
 .banner .content{
