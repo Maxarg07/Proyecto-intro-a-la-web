@@ -262,6 +262,74 @@ body{
 }
 
 
+/*Footer*/
+
+.footer{
+    grid-row: 3/4;
+    grid-column: 2/-1;
+    color: white;
+    background-color: black;
+    padding: 6rem 4rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.container-links-footer{
+    display: flex;
+    justify-content: space-between;
+
+    padding-bottom: 5rem;
+}
+
+.links-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-size: 1.6rem;
+}
+
+.links-footer a{
+    text-decoration: none;
+    color: lightgray;   
+}
+
+.links-footer a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.social-icons{
+    display: flex;
+    gap: 2rem;
+}
+
+.container-icon{
+    color: white;
+    background-color: #292929;
+    border-radius: 50%;
+    width: 4.2rem;
+    height: 4.2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-icon:hover{
+    background-color: lightgrey;
+}
+
+.container-icon svg{
+    font-size: 1.7rem;
+}
+
+.copyright p{
+    color: lightgray;
+    font-size: 1.6rem;
+}
+
 
 /*baner final*/
 
