@@ -1,0 +1,7 @@
+Para mi lo que mas me gusto de html y css es la forma en la cual puedes trabajar con ambos y la cantidad de herramientas
+con las cuales se cuenta para poder modificar el documento/pagina web; lo que menos me gusto es quiza que debido a tantas
+herramientas se puede volver algo tedioso o complicado saber cual/cuales utilizar.
+Se me facilito realizar el maquetado de las paginas en forma de sketch o a "mano alzada" e ir al corriente con los ejercicios
+de las clases debido a que tenia experiencia con la programacion; lo que mas trabajo me costo fue practicar por mi propia 
+cuenta debido a actividades externas al curso y a la gran cantidad de ejercicios que se pueden realizar para practicar y al
+no poder decidir que deberia practicar primero solo me agobiaba a mi mismo y me retrasaba con el estudio o repaso.
